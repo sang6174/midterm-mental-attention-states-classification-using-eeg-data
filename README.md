@@ -19,7 +19,7 @@ Each Matlab file contains the object of the data acquired from EMOTIV device dur
 3-'ED_RAW_CQ' - Raw signal quality index, reflecting the level of noise or clean signal. \
 4-'ED_AF3' \
 5-'ED_F7' \
-6-'ED_F3' \ 
+6-'ED_F3' \
 7-'ED_FC5' \
 8-'ED_T7' \
 9-'ED_P7' \
