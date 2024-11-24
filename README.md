@@ -1,6 +1,7 @@
 MIDTERM - Mental Attention States Classification Using EEG DATA
 
 I. Obbjective
+
 Classify mental attention states (focused, unfocused, drowsy) based on EEG signals using machine learning techniques.
 
 II. Dataset Detail
@@ -11,6 +12,7 @@ II. Dataset Detail
 - Sampling frequency: 128 Hz.
 
 2. Context
+
 This is a collection of 34 experiments for monitoring of attention state in human individuals using passive EEG BCI.
 Each Matlab file contains the object of the data acquired from EMOTIV device during one experiment. The raw data is contained in o.data, which is array of size {number-of-samples}x25, thus o.data(:,i) comprises one data channel. The sampling frequency is 128 Hz. The list of data channels and their numerical ids is given below per EMOTIV documentation;
 
