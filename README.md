@@ -14,33 +14,33 @@ II. Dataset Detail
 This is a collection of 34 experiments for monitoring of attention state in human individuals using passive EEG BCI.
 Each Matlab file contains the object of the data acquired from EMOTIV device during one experiment. The raw data is contained in o.data, which is array of size {number-of-samples}x25, thus o.data(:,i) comprises one data channel. The sampling frequency is 128 Hz. The list of data channels and their numerical ids is given below per EMOTIV documentation;
 
-1-'ED_COUNTER' - A counter or index of a data sample. helps track the order of records in a time series.
-2-'ED_INTERPOLATED' - Flag indicating if data has been interpolated to fill gaps or missing data.
-3-'ED_RAW_CQ' - 
-4-'ED_AF3'
-5-'ED_F7'
-6-'ED_F3'
-7-'ED_FC5'
-8-'ED_T7'
-9-'ED_P7'
-10-'ED_O1'
-11-'ED_O2'
-12-'ED_P8'
-13-'ED_T8'
-14-'ED_FC6'
-15-'ED_F4'
-16-'ED_F8'
-17-'ED_AF4'
-18-'ED_GYROX'
-19-'ED_GYROY'
-20-'ED_TIMESTAMP'
-21-'ED_ES_TIMESTAMP'
-22-'ED_FUNC_ID'
-23-'ED_FUNC_VALUE'
-24-'ED_MARKER'
-25'ED_SYNC_SIGNAL'
+1-'ED_COUNTER' - A counter or index of a data sample. helps track the order of records in a time series. \
+2-'ED_INTERPOLATED' - Flag indicating if data has been interpolated to fill gaps or missing data. \
+3-'ED_RAW_CQ' - Raw signal quality index, reflecting the level of noise or clean signal. \
+4-'ED_AF3' \
+5-'ED_F7' \
+6-'ED_F3' \ 
+7-'ED_FC5' \
+8-'ED_T7' \
+9-'ED_P7' \
+10-'ED_O1' \
+11-'ED_O2' \
+12-'ED_P8' \
+13-'ED_T8' \
+14-'ED_FC6' \
+15-'ED_F4' \
+16-'ED_F8' \
+17-'ED_AF4' \
+18-'ED_GYROX' \
+19-'ED_GYROY' \
+20-'ED_TIMESTAMP' - Timestamp of each data sample (usually real-time or internal time). \
+21-'ED_ES_TIMESTAMP' - Another timestamp, which may be related to a specific event in the system. \
+22-'ED_FUNC_ID' - ID of the function or data logging mode (if the device supports multiple operating modes). \
+23-'ED_FUNC_VALUE' - Value related to the corresponding function or mode. \ 
+24-'ED_MARKER' - Markers are added by users or devices to serve as a reference for analysis. \
+25'ED_SYNC_SIGNAL' - Sync signal to connect different devices or systems. \
 
-The EEG data is in the channels 4:17.
+The EEG data is in the channels 4:17. \
 
 III. Requirements:
 1. Data Preprocessing
